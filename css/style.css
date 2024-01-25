@@ -1,0 +1,44 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+img{
+    max-width: 100%;
+}
+h2{
+    font-size: 1.2rem;
+}
+.col-3 > .border{
+    height: 100%;
+}
+
+/** Top Bar **/
+.top-bar{
+    background: #000;
+    color: #fff;
+}
+.top-bar p{
+    font-size: 15px;
+}
+
+/** Carrito **/
+a.link-carrito{
+    text-decoration: none;
+    position: relative;
+}
+a.link-carrito .cantidad{
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #000;
+    height: 18px;
+    width: 18px;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 600;
+    vertical-align: middle;
+    line-height: 19px;
+}
